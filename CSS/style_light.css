@@ -9,7 +9,7 @@
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        background: #68a4ff;
+        background: #F5F3E3;
     }
     
     .clock {
@@ -22,7 +22,7 @@
         background-size: cover;
         border: 20px solid #fff;
         border-radius: 50%;
-        box-shadow: inset 0 0 30px rgba(0, 0, 0, .1), 0 20px 20 px rgba(0, 0, 0, .2), 0 0 0 4px rgba(255, 255, 255, 1);
+        box-shadow: inset 0 0 3px rgba(0, 0, 0, .1), 0 20px 20px rgba(0, 0, 0, .2), 0 0 0 4px rgba(255, 255, 255, 1);
     }
     
     .clock:before {
