@@ -13,3 +13,12 @@ setInterval(() => {
     mn.style.transform = `rotateZ(${mm}deg)`;
     sc.style.transform = `rotateZ(${ss}deg)`;
 })
+
+var ch = document.querySelector('#checkbox');
+ch.onclick = function() {
+    if (ch.checked) {
+        document.getElementById('pagestyle').setAttribute('href', 'file:///Users/politanskiy/Documents/Hillel/Own/Clock_Js/CSS/style.css');
+    } else {
+        document.getElementById('pagestyle').setAttribute('href', 'file:///Users/politanskiy/Documents/Hillel/Own/Clock_Js/CSS/style_light.css');
+    }
+}
